@@ -8,8 +8,6 @@ Demonstrates Win32 API interaction, process management, and OOP design in Python
 import argparse
 import json
 import os
-import sys
-import time
 from typing import Dict, List, Optional, Tuple
 
 import psutil
@@ -18,7 +16,6 @@ import win32gui
 import win32process
 from screeninfo import Monitor, get_monitors
 
-# Constants
 CONFIG_FILE = "window_layout.json"
 IGNORE_PROCESSES = ["python.exe", "cmd.exe", "powershell.exe", "SearchHost.exe"]
 
